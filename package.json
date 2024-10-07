@@ -1,0 +1,24 @@
+{
+  "name": "replay-recorded-ui-tests",
+  "version": "1.0.0",
+  "description": "Replay UI tests recorded using the Chrome test recorder. Uses the SAP SFLIGHT demo Fiori Elements app as app under test.",
+  "main": "index.js",
+  "scripts": {
+    "test": "replay --ext extension.js json"
+  },
+  "keywords": [
+    "ui5",
+    "fiori",
+    "elements",
+    "replay",
+    "puppeteer",
+    "ui",
+    "testing"
+  ],
+  "author": "Tobias Hofmann",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@puppeteer/replay": "^3.1.1",
+    "puppeteer": "^23.5.1"
+  }
+}
