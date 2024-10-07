@@ -1,0 +1,132 @@
+{
+    "title": "SFLIGHT 3",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 2027,
+            "height": 1324,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "http://localhost:4004/travel_processor/webapp/index.html?sap-language=en",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://localhost:4004/travel_processor/webapp/index.html?sap-language=en",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Agency[role=\"textbox\"]"
+                ],
+                [
+                    "#sap\\.fe\\.cap\\.travel\\:\\:TravelList--fe\\:\\:FilterBar\\:\\:Travel\\:\\:FilterField\\:\\:to_Agency_AgencyID-inner-inner"
+                ],
+                [
+                    "xpath///*[@id=\"sap.fe.cap.travel::TravelList--fe::FilterBar::Travel::FilterField::to_Agency_AgencyID-inner-inner\"]"
+                ],
+                [
+                    "pierce/#sap\\.fe\\.cap\\.travel\\:\\:TravelList--fe\\:\\:FilterBar\\:\\:Travel\\:\\:FilterField\\:\\:to_Agency_AgencyID-inner-inner"
+                ]
+            ],
+            "offsetY": 14,
+            "offsetX": 189.8125
+        },
+        {
+            "type": "change",
+            "target": "main",
+            "selectors": [
+                "aria/Agency[role=\"textbox\"]",
+                "#sap\\.fe\\.cap\\.travel\\:\\:TravelList--fe\\:\\:FilterBar\\:\\:Travel\\:\\:FilterField\\:\\:to_Agency_AgencyID-inner-inner",
+                "xpath///*[@id=\"sap.fe.cap.travel::TravelList--fe::FilterBar::Travel::FilterField::to_Agency_AgencyID-inner-inner\"]",
+                "pierce/#sap\\.fe\\.cap\\.travel\\:\\:TravelList--fe\\:\\:FilterBar\\:\\:Travel\\:\\:FilterField\\:\\:to_Agency_AgencyID-inner-inner"
+            ],
+            "value": "Sunshine Travel"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Enter"
+        },
+        {
+            "type": "keyUp",
+            "key": "Enter",
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Travel Status[role=\"combobox\"]"
+                ],
+                [
+                    "#sap\\.fe\\.cap\\.travel\\:\\:TravelList--fe\\:\\:FilterBar\\:\\:Travel\\:\\:FilterField\\:\\:TravelStatus_code-inner-inner"
+                ],
+                [
+                    "xpath///*[@id=\"sap.fe.cap.travel::TravelList--fe::FilterBar::Travel::FilterField::TravelStatus_code-inner-inner\"]"
+                ],
+                [
+                    "pierce/#sap\\.fe\\.cap\\.travel\\:\\:TravelList--fe\\:\\:FilterBar\\:\\:Travel\\:\\:FilterField\\:\\:TravelStatus_code-inner-inner"
+                ]
+            ],
+            "offsetY": 15,
+            "offsetX": 36.625
+        },
+        {
+            "type": "change",
+            "value": "Open",
+            "selectors": [
+                [
+                    "aria/Travel Status[role=\"combobox\"]"
+                ],
+                [
+                    "#sap\\.fe\\.cap\\.travel\\:\\:TravelList--fe\\:\\:FilterBar\\:\\:Travel\\:\\:FilterField\\:\\:TravelStatus_code-inner-inner"
+                ],
+                [
+                    "xpath///*[@id=\"sap.fe.cap.travel::TravelList--fe::FilterBar::Travel::FilterField::TravelStatus_code-inner-inner\"]"
+                ],
+                [
+                    "pierce/#sap\\.fe\\.cap\\.travel\\:\\:TravelList--fe\\:\\:FilterBar\\:\\:Travel\\:\\:FilterField\\:\\:TravelStatus_code-inner-inner"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Enter"
+        },
+        {
+            "type": "keyUp",
+            "key": "Enter",
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#sap\\.fe\\.cap\\.travel\\:\\:TravelList--fe\\:\\:FilterBar\\:\\:Travel-btnSearch-BDI-content"
+                ],
+                [
+                    "xpath///*[@id=\"sap.fe.cap.travel::TravelList--fe::FilterBar::Travel-btnSearch-BDI-content\"]"
+                ],
+                [
+                    "pierce/#sap\\.fe\\.cap\\.travel\\:\\:TravelList--fe\\:\\:FilterBar\\:\\:Travel-btnSearch-BDI-content"
+                ]
+            ],
+            "offsetY": 6,
+            "offsetX": 4.5625
+        }
+    ]
+}
