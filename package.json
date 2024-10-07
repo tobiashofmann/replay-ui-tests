@@ -17,7 +17,8 @@
   ],
   "author": "Tobias Hofmann",
   "license": "Apache-2.0",
-  "dependencies": {
-    "@puppeteer/replay": "^3.1.1"
+  "devDependencies": {
+    "@puppeteer/replay": "^3.1.1",
+    "puppeteer": "^23.5.1"
   }
 }
