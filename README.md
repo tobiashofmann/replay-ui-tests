@@ -4,7 +4,7 @@ This is a sample app to show how replay can be used to automatically run UI test
 
 The recommended approach for going through the example is to read first the blog post and create the app in parallel by following the steps outlined in the blog post. This repository should be used as reference and help.
 
-# Step 2: Add UI test recordings
+## Step 2: Add UI test recordings
 
 Copy the JSON files of the UI tests recordings to the folder json.
 
